@@ -1,15 +1,14 @@
 # Location Tracker FastAPI Application
 
 from .main import app
-from . import models, schemas, crud, auth, database, config, maps
+from . import api, core, db, modules, tests, utils
 
 __all__ = [
     "app",
-    "models", 
-    "schemas",
-    "crud",
-    "auth",
-    "database", 
-    "config",
-    "maps"
-] 
+    "api",
+    "core",
+    "db",
+    "modules",
+    "tests",
+    "utils",
+]
